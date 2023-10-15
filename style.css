@@ -1,0 +1,107 @@
+
+
+
+body{
+
+    display: flex;
+    
+    align-items: center;
+    
+    justify-content: center;
+    
+    min-height: 100vh;
+
+    background-color: hsl(30, 38%, 92%);
+    
+    }
+
+
+
+
+.container{
+    display: flex;
+}
+
+
+
+.box-1{
+    height: 500px;
+    width: 300px;
+    background-image: url(image-product-desktop.jpg);
+    background-position: center;
+    background-size: contain;
+    background-size: 350px;
+}
+
+
+
+.box-2{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+}
+
+.header-1{
+   color: hsl(228, 12%, 48%); 
+   font-family: Montserrat;
+   font-size: 14px;
+   letter-spacing: 6px;
+   text-align: center;
+   margin-left: -130px;
+   margin-top: 30px;
+}
+
+.header-2{
+    color: black;
+    font-family: Fraunces;
+    font-size: 35px;
+    margin-right:80px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.pg-1{
+    color: hsl(228, 12%, 48%);  
+    font-family: Montserrat;
+   font-size: 14px;
+   line-height: 25px;
+   margin-right:70px;
+   text-align: left;
+   margin-left: 30px;
+   
+}
+
+.pg-2{
+    color:hsl(158, 36%, 37%);
+    font-family: Fraunces;
+    font-size: 35px;
+    margin-left: 30px;
+}
+
+.pg-3{
+    color: hsl(228, 12%, 48%);  
+    font-size:13px ;
+    text-decoration: line-through;
+    margin-left: 20px;
+}
+
+.bt{
+    font-size: 14px;
+    background-color:hsl(158, 36%, 37%) ;
+    color: white;
+    margin-left: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    border-color: hsl(158, 36%, 37%);
+    box-shadow: hsl(158, 36%, 37%);
+    width: 260px;
+    height: 40px;
+    background-image: url(icon-cart.svg);
+    background-repeat: no-repeat;
+    background-position:60px;
+    
+}
+
+.bt:hover{
+    background-color:hsl(158, 36%, 30%) ;
+}
